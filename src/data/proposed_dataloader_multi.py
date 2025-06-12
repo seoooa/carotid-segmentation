@@ -20,6 +20,7 @@ import SimpleITK as sitk
 import torch
 import lightning.pytorch as pl
 from pathlib import Path
+import yaml
 
 def create_distance_map(binary_mask):
     """
@@ -65,16 +66,16 @@ def ConvertDistanceMap(data):
     data["seg"] = distance_map
     return data
 
-class CoronaryArteryDataModule(pl.LightningDataModule):
+class CarotidDataModule(pl.LightningDataModule):
     def __init__(
         self,
-        data_dir: str = "data/imageCAS_heart_pos",
+        data_dir: str = "data/Han_Seg_multi",
         batch_size: int = 4,
         patch_size: tuple = (96, 96, 96),
         num_workers: int = 4, 
-        cache_rate: float = 0.05,
+        cache_rate: float = 0.1,
         use_distance_map: bool = False,
-        use_positional_embedding: bool = False
+        fold_number: int = 1
     ):
         super().__init__()
         self.data_dir = Path(data_dir)
@@ -83,42 +84,62 @@ class CoronaryArteryDataModule(pl.LightningDataModule):
         self.num_workers = num_workers
         self.cache_rate = cache_rate
         self.use_distance_map = use_distance_map
-        self.use_positional_embedding = use_positional_embedding
         self.train_ds = None
         self.val_ds = None
         self.test_ds = None
+        self.fold_number = fold_number
+
+    def load_data_splits(self, yaml_path, fold_number):
+        # Read the YAML file
+        with open(yaml_path, "r") as file:
+            data = yaml.safe_load(file)
         
-    def load_data_splits(self, split: str):
-        split_dir = self.data_dir / split
-        cases = sorted(os.listdir(split_dir))
-        
-        data_files = []
-        for case in cases:
-            case_dir = split_dir / case
+        # Extract train, val, test splits from the specified fold
+        fold_key = f"fold_{fold_number}"
+        fold = data["cross_validation_splits"][fold_number-1][fold_key]
+        train_split = fold["train"]
+        val_split = fold["val"]
+        test_split = fold["test"]
 
-            image_file = str(case_dir / "img.nii.gz")
-            label_file = str(case_dir / "label.nii.gz")
-            seg_file = str(case_dir / "heart_combined.nii.gz")  # roi segmentation
-            pos_file = str(case_dir / "ape_maps.nii.gz")  # positional embedding
+        # Add folder path to each entry in the splits and create dictionaries
+        base_dir = os.path.dirname(yaml_path)
+        train_split = [
+            {
+                "image": os.path.join(base_dir, entry, "CT.nii.gz"),
+                "label": os.path.join(base_dir, entry, "label.nii.gz"),
+                "seg": os.path.join(base_dir, entry, "combined_seg.nii.gz"),
+            }
+            for entry in train_split
+        ]
+        val_split = [
+            {
+                "image": os.path.join(base_dir, entry, "CT.nii.gz"),
+                "label": os.path.join(base_dir, entry, "label.nii.gz"),
+                "seg": os.path.join(base_dir, entry, "combined_seg.nii.gz"),
+            }
+            for entry in val_split
+        ]
+        test_split = [
+            {
+                "image": os.path.join(base_dir, entry, "CT.nii.gz"),
+                "label": os.path.join(base_dir, entry, "label.nii.gz"),
+                "seg": os.path.join(base_dir, entry, "combined_seg.nii.gz"),
+            }
+            for entry in test_split
+        ]
+        print(f"Loaded data splits from {yaml_path} for fold {fold_number}")
 
-            data_files.append({
-                "image": image_file,
-                "label": label_file,
-                "seg": seg_file,
-                "pos": pos_file
-            })
-
-        return data_files
+        return train_split, val_split, test_split
 
     def prepare_data(self):
         transforms = [
-            LoadImaged(keys=["image", "label", "seg", "pos"]),
-            EnsureChannelFirstd(keys=["image", "label", "seg", "pos"]),
-            Orientationd(keys=["image", "label", "seg", "pos"], axcodes="RAS"),
+            LoadImaged(keys=["image", "label", "seg"]),
+            EnsureChannelFirstd(keys=["image", "label", "seg"]),
+            Orientationd(keys=["image", "label", "seg"], axcodes="RAS"),
             ScaleIntensityRanged(
                 keys=["image"],
-                a_min=-150,
-                a_max=550,
+                a_min=-400,
+                a_max=1800,
                 b_min=0.0,
                 b_max=1.0,
                 clip=True,
@@ -127,7 +148,7 @@ class CoronaryArteryDataModule(pl.LightningDataModule):
                 keys=["seg"],
                 to_onehot=8,
             ),
-            CropForegroundd(keys=["image", "label", "seg", "pos"], source_key="image"),
+            CropForegroundd(keys=["image", "label", "seg"], source_key="image"),
         ]
 
         # distance map 
@@ -136,7 +157,7 @@ class CoronaryArteryDataModule(pl.LightningDataModule):
 
         transforms.extend([
             RandCropByPosNegLabeld(
-                keys=["image", "label", "seg", "pos"],
+                keys=["image", "label", "seg"],
                 label_key="label",
                 spatial_size=(96, 96, 96),
                 pos=1,
@@ -146,12 +167,12 @@ class CoronaryArteryDataModule(pl.LightningDataModule):
                 image_threshold=0,
             ),
             RandFlipd(
-                keys=["image", "label", "seg", "pos"],
+                keys=["image", "label", "seg"],
                 spatial_axis=[0],
                 prob=0.10,
             ),
             RandFlipd(
-                keys=["image", "label", "seg", "pos"],
+                keys=["image", "label", "seg"],
                 spatial_axis=[1],
                 prob=0.10,
             ),
@@ -165,13 +186,13 @@ class CoronaryArteryDataModule(pl.LightningDataModule):
         self.train_transforms = Compose(transforms)
 
         val_transforms = [
-            LoadImaged(keys=["image", "label", "seg", "pos"]),
-            EnsureChannelFirstd(keys=["image", "label", "seg", "pos"]),
-            Orientationd(keys=["image", "label", "seg", "pos"], axcodes="RAS"),
+            LoadImaged(keys=["image", "label", "seg"]),
+            EnsureChannelFirstd(keys=["image", "label", "seg"]),
+            Orientationd(keys=["image", "label", "seg"], axcodes="RAS"),
             ScaleIntensityRanged(
                 keys=["image"],
-                a_min=-150,
-                a_max=550,
+                a_min=-400,
+                a_max=1800,
                 b_min=0.0,
                 b_max=1.0,
                 clip=True,
@@ -180,7 +201,7 @@ class CoronaryArteryDataModule(pl.LightningDataModule):
                 keys=["seg"],
                 to_onehot=8,
             ),
-            CropForegroundd(keys=["image", "label", "seg", "pos"], source_key="image"),
+            CropForegroundd(keys=["image", "label", "seg"], source_key="image"),
         ]
 
         # distance map
@@ -193,9 +214,10 @@ class CoronaryArteryDataModule(pl.LightningDataModule):
         self.val_transforms = Compose(val_transforms)
 
     def setup(self, stage=None):
-        train_files = self.load_data_splits("train")
-        val_files = self.load_data_splits("valid")
-        test_files = self.load_data_splits("test")
+        train_files, val_files, test_files = self.load_data_splits(
+            yaml_path="data/Han_Seg_multi/data_splits.yaml", 
+            fold_number=self.fold_number
+        )
 
         print(f"Found {len(train_files)} training cases")
         print(f"Found {len(val_files)} validation cases")
@@ -206,11 +228,6 @@ class CoronaryArteryDataModule(pl.LightningDataModule):
             print("DISTANCE MAP Guided Training")
         else:
             print("SEGMENTATION MAP Guided Training")
-
-        if self.use_positional_embedding:
-            print("Positional Embedding Training")
-        else:
-            print("No Positional Embedding Training")
 
         self.train_ds = CacheDataset(
             data=train_files,
