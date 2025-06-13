@@ -18,13 +18,13 @@ def merge_segments_with_label_map(input_dir, output_dir, case_id):
     
     # 라벨 맵 정의
     label_map = {
-        1: ["OAR_Bone_Mandible"],                     # Bone_Mandible
-        2: ["OAR_SpinalCord"],                         # SpinalCord
-        3: ["OAR_Esophagus_S"],                        # Esophagus_S
-        4: ["OAR_Glnd_Thyroid"],                       # Gland_Thyroid
-        5: ["OAR_Glnd_Submand_L", "OAR_Glnd_Submand_R"], # Gln_Submand_L + Gln_Submand_R
-        6: ["OAR_Larynx_SG", "OAR_Glottis"],             # Larynx_SG + Glottis
-        7: ["OAR_Parotid_L", "OAR_Parotid_R"]            # Parotid L + Parotid R
+        1: ["OAR_Parotid_L", "OAR_Parotid_R"],
+        2: ["OAR_Cavity_Oral"],
+        3: ["OAR_Brainstem"],
+        4: ["OAR_Glnd_Submand_L", "OAR_Glnd_Submand_R"],
+        5: ["OAR_Esophagus_S"],
+        6: ["OAR_Cricopharyngeus"],
+        7: ["OAR_Glottis"],
     }
     
     # 참조 이미지 가져오기 (아무 세그멘테이션 파일이나 사용)
