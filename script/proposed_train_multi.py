@@ -30,7 +30,7 @@ from dvclive.lightning import DVCLiveLogger
 from src.data.proposed_dataloader_multi import CarotidDataModule
 from src.models.proposed_networks_multi import NetworkFactory
 from src.losses.losses import LossFactory
-from src.metrics.metrics import MetricFactory
+from src.metrics.metrics_multi import MetricFactory
 
 def print_monai_config():
     local_rank = int(os.environ.get("LOCAL_RANK", "0"))
@@ -69,7 +69,7 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
         self.batch_size = batch_size
         self.lr = lr
         self.patch_size = patch_size
-        self.result_folder = Path("result/multi")  # Define the result folder
+        self.result_folder = Path("result")  # Define the result folder
         self.test_step_outputs = []
 
     def forward(self, x, seg):
@@ -145,9 +145,6 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
             "val_iou": torch.tensor(metric_results["iou"], device=self.device),
             "val_precision": torch.tensor(metric_results["precision"], device=self.device),
             "val_recall": torch.tensor(metric_results["recall"], device=self.device),
-            "val_cldice": torch.tensor(metric_results["cldice"], device=self.device),
-            "val_betti_0": torch.tensor(metric_results["betti_0"], device=self.device),
-            "val_betti_1": torch.tensor(metric_results["betti_1"], device=self.device),
             "val_loss": mean_val_loss,
         }
 
@@ -163,9 +160,6 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
             f"iou: {metric_results['iou']:.4f}, "
             f"precision: {metric_results['precision']:.4f}, "
             f"recall: {metric_results['recall']:.4f}, "
-            f"cldice: {metric_results['cldice']:.4f}, "
-            f"betti_0: {metric_results['betti_0']:.4f}, "
-            f"betti_1: {metric_results['betti_1']:.4f}"
             f"\nbest mean dice: {self.best_val_dice:.4f} "
             f"at epoch: {self.best_val_epoch}"
         )
@@ -251,9 +245,6 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
             "test_iou": metric_results["iou"],
             "test_precision": metric_results["precision"],
             "test_recall": metric_results["recall"],
-            "test_cldice": metric_results["cldice"],
-            "test_betti_0": metric_results["betti_0"],
-            "test_betti_1": metric_results["betti_1"],
             "patient_id": patient_id,
         }
         self.test_step_outputs.append(d)
@@ -269,9 +260,6 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
         iou_scores = [x["test_iou"] for x in self.test_step_outputs]
         precision_scores = [x["test_precision"] for x in self.test_step_outputs]
         recall_scores = [x["test_recall"] for x in self.test_step_outputs]
-        cldice_scores = [x["test_cldice"] for x in self.test_step_outputs]
-        betti_0_scores = [x["test_betti_0"] for x in self.test_step_outputs]
-        betti_1_scores = [x["test_betti_1"] for x in self.test_step_outputs]
 
         # Calculate means
         mean_dice = np.mean(dice_scores)
@@ -279,9 +267,6 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
         mean_iou = np.mean(iou_scores)
         mean_precision = np.mean(precision_scores)
         mean_recall = np.mean(recall_scores)
-        mean_cldice = np.mean(cldice_scores)
-        mean_betti_0 = np.mean(betti_0_scores)
-        mean_betti_1 = np.mean(betti_1_scores)
 
         # Log mean metrics
         self.log_dict({
@@ -290,9 +275,6 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
             "test/mean_iou": mean_iou,
             "test/mean_precision": mean_precision,
             "test/mean_recall": mean_recall,
-            "test/mean_cldice": mean_cldice,
-            "test/mean_betti_0": mean_betti_0,
-            "test/mean_betti_1": mean_betti_1,
         })
 
         # Save detailed result to CSV
@@ -300,8 +282,7 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
         with open(result_file, "w", newline="") as csvfile:
             fieldnames = [
                 "dice_score", "hausdorff_score", "iou_score", 
-                "precision_score", "recall_score", "cldice_score",
-                "betti_0_score", "betti_1_score", "patient_id"
+                "precision_score", "recall_score", "patient_id"
             ]
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
@@ -313,9 +294,6 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
                     "iou_score": result["test_iou"],
                     "precision_score": result["test_precision"],
                     "recall_score": result["test_recall"],
-                    "cldice_score": result["test_cldice"],
-                    "betti_0_score": result["test_betti_0"],
-                    "betti_1_score": result["test_betti_1"],
                     "patient_id": result["patient_id"],
                 }
                 writer.writerow(result_with_filename)
@@ -327,9 +305,6 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
                 "iou_score": f"{mean_iou:.4f} ± {np.std(iou_scores):.4f}",
                 "precision_score": f"{mean_precision:.4f} ± {np.std(precision_scores):.4f}",
                 "recall_score": f"{mean_recall:.4f} ± {np.std(recall_scores):.4f}",
-                "cldice_score": f"{mean_cldice:.4f} ± {np.std(cldice_scores):.4f}",
-                "betti_0_score": f"{mean_betti_0:.4f} ± {np.std(betti_0_scores):.4f}",
-                "betti_1_score": f"{mean_betti_1:.4f} ± {np.std(betti_1_scores):.4f}",
                 "patient_id": "AVG ± STD",
             })
 
@@ -339,9 +314,6 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
         print(f"Mean IoU Score: {mean_iou:.4f}")
         print(f"Mean Precision Score: {mean_precision:.4f}")
         print(f"Mean Recall Score: {mean_recall:.4f}")
-        print(f"Mean CLDice Score: {mean_cldice:.4f}")
-        print(f"Mean Betti-0 Error: {mean_betti_0:.4f}")
-        print(f"Mean Betti-1 Error: {mean_betti_1:.4f}")
         print(f"Detailed result saved to: {result_file}")
 
         # Clear the outputs
@@ -412,7 +384,7 @@ def main(
     print_monai_config()
 
     # set up loggers and checkpoints
-    log_dir = f"result/proposed_{arch_name}" + ("_dstMap" if guide == "distanceMap" else "_segMap") + f"/fold_{fold_number}"
+    log_dir = f"result/multi/proposed_{arch_name}" + ("_dstMap" if guide == "distanceMap" else "_segMap") + f"/fold_{fold_number}"
     os.makedirs(log_dir, exist_ok=True)
 
     # GPU Setting
@@ -444,7 +416,7 @@ def main(
         accumulate_grad_batches=5,
         precision="bf16-mixed",
         check_val_every_n_epoch=check_val_every_n_epoch,
-        num_sanity_val_steps=0,
+        num_sanity_val_steps=1,
         callbacks=callbacks,
         default_root_dir=log_dir,
     )

@@ -71,7 +71,7 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
         self.batch_size = batch_size
         self.lr = lr
         self.patch_size = patch_size
-        self.result_folder = Path("result/multi")  # Define the result folder
+        self.result_folder = Path("result")  # Define the result folder
         self.test_step_outputs = []
 
     def forward(self, x):
@@ -347,7 +347,7 @@ def main(
     print_monai_config()
 
     # set up loggers and checkpoints
-    log_dir = f"result/{arch_name}/fold_{fold_number}"
+    log_dir = f"result/multi/{arch_name}/fold_{fold_number}"
     os.makedirs(log_dir, exist_ok=True)
 
     # GPU Setting
