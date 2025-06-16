@@ -57,7 +57,6 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
         self._model = NetworkFactory.create_network(arch_name, patch_size)
         self.loss_function = LossFactory.create_loss(loss_fn)
         self.metrics = MetricFactory.create_metrics()
-
         self.post_pred = Compose(
             [EnsureType("tensor", device="cpu"), AsDiscrete(argmax=True, to_onehot=6)]
         )
@@ -155,8 +154,12 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
         os.makedirs(save_folder, exist_ok=True)
 
         inputs_np = inputs.detach().cpu().numpy().squeeze()
-        outputs_np = outputs.detach().cpu().numpy().squeeze()[1]
-        labels_np = labels.detach().cpu().numpy().squeeze()[1]
+        outputs_np = outputs.detach().cpu().numpy().squeeze()  # multi-class
+        labels_np = labels.detach().cpu().numpy().squeeze()    # multi-class
+
+        # Convert one-hot to class indices (argmax)
+        outputs_np = np.argmax(outputs_np, axis=0).astype(np.uint8)
+        labels_np = np.argmax(labels_np, axis=0).astype(np.uint8)
 
         # Save inputs as NIfTI
         inputs_nifti = nib.Nifti1Image(

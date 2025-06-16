@@ -171,8 +171,12 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
         os.makedirs(save_folder, exist_ok=True)
 
         inputs_np = inputs.detach().cpu().numpy().squeeze()
-        outputs_np = outputs.detach().cpu().numpy().squeeze()[1]
-        labels_np = labels.detach().cpu().numpy().squeeze()[1]
+        outputs_np = outputs.detach().cpu().numpy().squeeze()  # multi-class
+        labels_np = labels.detach().cpu().numpy().squeeze()    # multi-class
+
+        # Convert one-hot to class indices (argmax)
+        outputs_np = np.argmax(outputs_np, axis=0).astype(np.uint8)
+        labels_np = np.argmax(labels_np, axis=0).astype(np.uint8)
 
         # inputs_np = np.moveaxis(inputs_np, 0, -1)
         # outputs_np = np.moveaxis(outputs_np, 0, -1)
@@ -426,7 +430,7 @@ def main(
         data_dir="data/Han_Seg_multi",
         batch_size=1,
         patch_size=(96, 96, 96),
-        num_workers=4,
+        num_workers=2,
         cache_rate=0.0,
         use_distance_map=guide == "distanceMap",
         fold_number=fold_number
