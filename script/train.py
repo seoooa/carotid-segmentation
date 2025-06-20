@@ -413,10 +413,10 @@ def main(
 
     # Initialize data module
     data_module = CarotidDataModule(
-        data_dir="data/Han_Seg",
+        data_dir="data/Han_Seg_single",
         batch_size=1,
         patch_size=(96, 96, 96),
-        num_workers=4,
+        num_workers=2,
         cache_rate=0.1,
         fold_number=fold_number
     )

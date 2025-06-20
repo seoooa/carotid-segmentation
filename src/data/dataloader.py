@@ -147,7 +147,7 @@ class CarotidDataModule(pl.LightningDataModule):
     def setup(self, stage=None):
         # set up the correct data path
         train_files, val_files, test_files = self.load_data_splits(
-            yaml_path="data/Han_Seg/data_splits.yaml", fold_number=self.fold_number
+            yaml_path="data/Han_Seg_single/data_splits.yaml", fold_number=self.fold_number
         )
 
         print(f"Found {len(train_files)} training cases")
