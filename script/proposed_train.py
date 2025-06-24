@@ -393,7 +393,7 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
 )
 @click.option(
     "--target",
-    type=click.Choice(["carotid", "mandible", "spinalcord"]),
+    type=click.Choice(["carotid", "mandible", "spinalcord", "thyroid"]),
     default="carotid",
     help="Choose the target anatomy for segmentation.",
 )
@@ -461,7 +461,7 @@ def main(
         data_dir=f"data/Han_Seg_{target.capitalize()}",
         batch_size=1,
         patch_size=(96, 96, 96),
-        num_workers=4,
+        num_workers=2,
         cache_rate=0.0,
         use_distance_map=guide == "distanceMap",
         fold_number=fold_number,

@@ -71,7 +71,8 @@ class CarotidDataModule(pl.LightningDataModule):
     INTENSITY_RANGES = {
         "carotid": {"a_min": -20, "a_max": 380},
         "mandible": {"a_min": -150, "a_max": 1900},
-        "spinalcord": {"a_min": -150, "a_max": 1000},
+        "spinalcord": {"a_min": -100, "a_max": 150},
+        "thyroid": {"a_min": -110, "a_max": 320},
     }
 
     def __init__(

@@ -356,7 +356,7 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
     )
 @click.option(
     "--target",
-    type=click.Choice(["carotid", "mandible", "spinalcord"]),
+    type=click.Choice(["carotid", "mandible", "spinalcord", "thyroid"]),
     default="carotid",
     help="Choose the target anatomy for segmentation.",
 )
