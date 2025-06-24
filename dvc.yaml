@@ -1583,6 +1583,37 @@ metrics:
 - result/proposed_SwinUNETR_dstMap/fold_1/metrics.json
 - result/proposed_SwinUNETR_dstMap/fold_1/metrics.json
 - result/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
+- result/mandible/SegResNet/fold_1/metrics.json
 plots:
 - result/SegResNet/fold_1/plots/metrics:
     x: step
@@ -4751,6 +4782,68 @@ plots:
 - result/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
     x: step
 - result/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/SegResNet/fold_1/plots/metrics:
     x: step
 artifacts:
   best:

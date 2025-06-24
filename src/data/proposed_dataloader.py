@@ -67,6 +67,13 @@ def ConvertDistanceMap(data):
     return data
 
 class CarotidDataModule(pl.LightningDataModule):
+    # define intensity range for each target
+    INTENSITY_RANGES = {
+        "carotid": {"a_min": -20, "a_max": 380},
+        "mandible": {"a_min": -150, "a_max": 1900},
+        "spinalcord": {"a_min": -150, "a_max": 1000},
+    }
+
     def __init__(
         self,
         data_dir: str = "data/Han_Seg",
@@ -75,7 +82,8 @@ class CarotidDataModule(pl.LightningDataModule):
         num_workers: int = 4, 
         cache_rate: float = 0.1,
         use_distance_map: bool = False,
-        fold_number: int = 1
+        fold_number: int = 1,
+        target: str = "carotid"
     ):
         super().__init__()
         self.data_dir = Path(data_dir)
@@ -88,6 +96,12 @@ class CarotidDataModule(pl.LightningDataModule):
         self.val_ds = None
         self.test_ds = None
         self.fold_number = fold_number
+        self.target = target
+
+        # set intensity range for each target
+        if target not in self.INTENSITY_RANGES:
+            raise ValueError(f"Unsupported target: {target}. Must be one of {list(self.INTENSITY_RANGES.keys())}")
+        self.intensity_range = self.INTENSITY_RANGES[target]
 
     def load_data_splits(self, yaml_path, fold_number):
         # Read the YAML file
@@ -106,7 +120,7 @@ class CarotidDataModule(pl.LightningDataModule):
         train_split = [
             {
                 "image": os.path.join(base_dir, entry, "CT.nii.gz"),
-                "label": os.path.join(base_dir, entry, "carotid.nii.gz"),
+                "label": os.path.join(base_dir, entry, "label.nii.gz"),
                 "seg": os.path.join(base_dir, entry, "combined_seg.nii.gz"),
             }
             for entry in train_split
@@ -114,7 +128,7 @@ class CarotidDataModule(pl.LightningDataModule):
         val_split = [
             {
                 "image": os.path.join(base_dir, entry, "CT.nii.gz"),
-                "label": os.path.join(base_dir, entry, "carotid.nii.gz"),
+                "label": os.path.join(base_dir, entry, "label.nii.gz"),
                 "seg": os.path.join(base_dir, entry, "combined_seg.nii.gz"),
             }
             for entry in val_split
@@ -122,7 +136,7 @@ class CarotidDataModule(pl.LightningDataModule):
         test_split = [
             {
                 "image": os.path.join(base_dir, entry, "CT.nii.gz"),
-                "label": os.path.join(base_dir, entry, "carotid.nii.gz"),
+                "label": os.path.join(base_dir, entry, "label.nii.gz"),
                 "seg": os.path.join(base_dir, entry, "combined_seg.nii.gz"),
             }
             for entry in test_split
@@ -138,8 +152,8 @@ class CarotidDataModule(pl.LightningDataModule):
             Orientationd(keys=["image", "label", "seg"], axcodes="RAS"),
             ScaleIntensityRanged(
                 keys=["image"],
-                a_min=-20,
-                a_max=380,
+                a_min=self.intensity_range["a_min"],  # use target intensity range
+                a_max=self.intensity_range["a_max"],  # use target intensity range
                 b_min=0.0,
                 b_max=1.0,
                 clip=True,
@@ -191,8 +205,8 @@ class CarotidDataModule(pl.LightningDataModule):
             Orientationd(keys=["image", "label", "seg"], axcodes="RAS"),
             ScaleIntensityRanged(
                 keys=["image"],
-                a_min=-20,
-                a_max=380,
+                a_min=self.intensity_range["a_min"],  # use target intensity range
+                a_max=self.intensity_range["a_max"],  # use target intensity range
                 b_min=0.0,
                 b_max=1.0,
                 clip=True,
@@ -215,7 +229,7 @@ class CarotidDataModule(pl.LightningDataModule):
 
     def setup(self, stage=None):
         train_files, val_files, test_files = self.load_data_splits(
-            yaml_path="data/Han_Seg_single/data_splits.yaml", 
+            yaml_path=f"data/Han_Seg_{self.target.capitalize()}/data_splits.yaml", 
             fold_number=self.fold_number
         )
 

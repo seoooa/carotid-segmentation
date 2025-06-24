@@ -391,6 +391,12 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
 @click.option(
     "--fold_number", type=int, default=1, help="Specify the fold number for training. (ex. 1, 2, 3, 4, 5)"
 )
+@click.option(
+    "--target",
+    type=click.Choice(["carotid", "mandible", "spinalcord"]),
+    default="carotid",
+    help="Choose the target anatomy for segmentation.",
+)
 def main(
     arch_name,
     loss_fn,
@@ -399,7 +405,8 @@ def main(
     gpu_number,
     checkpoint_path,
     guide,
-    fold_number
+    fold_number,
+    target
 ):
     # NCCL communication
     os.environ["NCCL_IB_DISABLE"] = "1"
@@ -412,7 +419,7 @@ def main(
     print_monai_config()
 
     # set up loggers and checkpoints
-    log_dir = f"result/proposed_{arch_name}" + ("_dstMap" if guide == "distanceMap" else "_segMap") + f"/fold_{fold_number}"
+    log_dir = f"result/{target}/proposed_{arch_name}" + ("_dstMap" if guide == "distanceMap" else "_segMap") + f"/fold_{fold_number}"
     os.makedirs(log_dir, exist_ok=True)
 
     # GPU Setting
@@ -451,13 +458,14 @@ def main(
 
     # Initialize data module
     data_module = CarotidDataModule(
-        data_dir="data/Han_Seg",
+        data_dir=f"data/Han_Seg_{target.capitalize()}",
         batch_size=1,
         patch_size=(96, 96, 96),
         num_workers=4,
         cache_rate=0.0,
         use_distance_map=guide == "distanceMap",
-        fold_number=fold_number
+        fold_number=fold_number,
+        target=target
     )
     data_module.prepare_data()
 
