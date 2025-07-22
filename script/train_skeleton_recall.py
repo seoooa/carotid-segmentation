@@ -89,22 +89,20 @@ class CarotidSkeletonModel(pytorch_lightning.LightningModule):
         # Handle different loss functions
         loss_fn_name = self.loss_function.__class__.__name__
         
-        if skeleton is not None and loss_fn_name == "SkeletonRecallLossWrapper":
+        if loss_fn_name == "SkeletonRecallLossWrapper":
+            # For DC_SkelREC_and_CE_loss: forward(input, target, target_skel)
+            if skeleton is None:
+                raise ValueError("Skeleton data is required for SkeletonRecallLossWrapper")
+            loss = self.loss_function(output, labels, target_skel=skeleton)
+            
+        elif loss_fn_name == "SoftSkeletonRecallLossWrapper":
             # For pure skeleton recall loss: forward(input, target_skel, loss_mask=None)
+            if skeleton is None:
+                raise ValueError("Skeleton data is required for SoftSkeletonRecallLossWrapper")
             loss = self.loss_function(output, skeleton)
-        elif skeleton is not None and loss_fn_name == "SoftSkeletonRecallLossWrapper":
-            # For pure skeleton recall loss: forward(input, target_skel, loss_mask=None) 
-            loss = self.loss_function(output, skeleton)
-        elif skeleton is not None and hasattr(self.loss_function, 'forward'):
-            # For combined losses: forward(input, target, target_skel=skeleton)
-            import inspect
-            sig = inspect.signature(self.loss_function.forward)
-            if 'target_skel' in sig.parameters:
-                loss = self.loss_function(output, labels, target_skel=skeleton)
-            else:
-                loss = self.loss_function(output, labels)
+            
         else:
-            # For standard losses without skeleton
+            # For standard losses without skeleton (DiceLoss, DiceCELoss, etc.)
             loss = self.loss_function(output, labels)
         
         metrics = loss.item()
@@ -128,25 +126,23 @@ class CarotidSkeletonModel(pytorch_lightning.LightningModule):
             images, roi_size, sw_batch_size, self.forward
         )
         
-        # Handle different loss functions (same as training_step)
+        # Handle different loss functions (same logic as training_step)
         loss_fn_name = self.loss_function.__class__.__name__
         
-        if skeleton is not None and loss_fn_name == "SkeletonRecallLossWrapper":
+        if loss_fn_name == "SkeletonRecallLossWrapper":
+            # For DC_SkelREC_and_CE_loss: forward(input, target, target_skel)
+            if skeleton is None:
+                raise ValueError("Skeleton data is required for SkeletonRecallLossWrapper")
+            loss = self.loss_function(outputs, labels, target_skel=skeleton)
+            
+        elif loss_fn_name == "SoftSkeletonRecallLossWrapper":
             # For pure skeleton recall loss: forward(input, target_skel, loss_mask=None)
+            if skeleton is None:
+                raise ValueError("Skeleton data is required for SoftSkeletonRecallLossWrapper")
             loss = self.loss_function(outputs, skeleton)
-        elif skeleton is not None and loss_fn_name == "SoftSkeletonRecallLossWrapper":
-            # For pure skeleton recall loss: forward(input, target_skel, loss_mask=None)
-            loss = self.loss_function(outputs, skeleton)
-        elif skeleton is not None and hasattr(self.loss_function, 'forward'):
-            # For combined losses: forward(input, target, target_skel=skeleton)
-            import inspect
-            sig = inspect.signature(self.loss_function.forward)
-            if 'target_skel' in sig.parameters:
-                loss = self.loss_function(outputs, labels, target_skel=skeleton)
-            else:
-                loss = self.loss_function(outputs, labels)
+            
         else:
-            # For standard losses without skeleton
+            # For standard losses without skeleton (DiceLoss, DiceCELoss, etc.)
             loss = self.loss_function(outputs, labels)
         
         outputs = [self.post_pred(i) for i in decollate_batch(outputs)]
