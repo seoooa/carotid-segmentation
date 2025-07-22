@@ -1614,6 +1614,919 @@ metrics:
 - result/mandible/SegResNet/fold_1/metrics.json
 - result/mandible/SegResNet/fold_1/metrics.json
 - result/mandible/SegResNet/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/mandible/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/spinalcord/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/spinalcord/proposed_SegResNet_dstMap/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/spinalcord/UNETR/fold_1/metrics.json
+- result/mandible/post_processing/SegResNet/fold_1/metrics.json
+- result/mandible/post_processing/SegResNet/fold_1/metrics.json
+- result/post_processing/SegResNet/mandible/metrics.json
+- result/post_processing/SegResNet/mandible/metrics.json
+- result/post_processing/SegResNet/carotid/metrics.json
+- result/post_processing/SegResNet/carotid/metrics.json
+- result/post_processing/SegResNet/spinalcord/metrics.json
+- result/post_processing/SegResNet/spinalcord/metrics.json
+- result/post_processing/SegResNet/thyroid/metrics.json
+- result/post_processing/SegResNet/thyroid/metrics.json
+- result/post_processing/SegResNet/carotid/metrics.json
+- result/post_processing/SegResNet/carotid/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/metrics.json
 plots:
 - result/SegResNet/fold_1/plots/metrics:
     x: step
@@ -4845,7 +5758,1834 @@ plots:
     x: step
 - result/mandible/SegResNet/fold_1/plots/metrics:
     x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/carotid/proposed_SwinUNETR_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/mandible/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/proposed_SegResNet_dstMap/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/spinalcord/UNETR/fold_1/plots/metrics:
+    x: step
+- result/mandible/post_processing/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/mandible/post_processing/SegResNet/fold_1/plots/metrics:
+    x: step
+- result/post_processing/SegResNet/mandible/plots/metrics:
+    x: step
+- result/post_processing/SegResNet/mandible/plots/metrics:
+    x: step
+- result/post_processing/SegResNet/carotid/plots/metrics:
+    x: step
+- result/post_processing/SegResNet/carotid/plots/metrics:
+    x: step
+- result/post_processing/SegResNet/spinalcord/plots/metrics:
+    x: step
+- result/post_processing/SegResNet/spinalcord/plots/metrics:
+    x: step
+- result/post_processing/SegResNet/thyroid/plots/metrics:
+    x: step
+- result/post_processing/SegResNet/thyroid/plots/metrics:
+    x: step
+- result/post_processing/SegResNet/carotid/plots/metrics:
+    x: step
+- result/post_processing/SegResNet/carotid/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SkeletonRecallLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
 artifacts:
   best:
-    path: result/proposed_SwinUNETR_dstMap/fold_1/artifacts/epoch=9-step=60.ckpt
+    path: 
+      result/SkeletonRecallLoss/SegResNet/carotid/fold_1/artifacts/epoch=39-step=240.ckpt
     type: model
