@@ -508,7 +508,7 @@ def main(
         batch_size=1,
         patch_size=(96, 96, 96),
         num_workers=4,
-        cache_rate=0.2,
+        cache_rate=0.0,
         use_distance_map=guide == "distanceMap",
         fold_number=fold_number,
         target=target,
