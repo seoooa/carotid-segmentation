@@ -5,16 +5,16 @@ from monai.transforms import (
     Compose,
     EnsureType,
     AsDiscrete,
+    Resize,
 )
-from monai.networks.nets import AttentionUnet, SegResNet, UNETR, SwinUNETR, VNet
-from monai.networks.nets import UNet
-from monai.networks.layers import Norm
+
 from lightning.pytorch.callbacks import (
     BatchSizeFinder,
     LearningRateFinder,
     StochasticWeightAveraging,
 )
 
+from monai.metrics import DiceMetric, HausdorffDistanceMetric, MeanIoU
 from monai.inferers import sliding_window_inference
 from monai.data import decollate_batch
 from monai.config import print_config
@@ -27,8 +27,8 @@ from pathlib import Path
 import csv
 from dvclive.lightning import DVCLiveLogger
 
-from src.data.dataloader_skeleton_recall import CarotidSkeletonDataModule
-from src.models.networks import NetworkFactory
+from src.data.proposed_dataloader_skeleton_recall import CarotidSkeletonDataModule
+from src.models.proposed_networks import NetworkFactory
 from src.losses.losses import LossFactory
 from src.metrics.metrics import MetricFactory
 
@@ -38,7 +38,7 @@ def print_monai_config():
         print_config()
 
 class CarotidSkeletonSegmentModel(pytorch_lightning.LightningModule):
-    """Model for skeleton recall loss training"""
+    """Proposed model with skeleton recall support"""
 
     def __init__(
         self,
@@ -56,35 +56,39 @@ class CarotidSkeletonSegmentModel(pytorch_lightning.LightningModule):
         self._model = NetworkFactory.create_network(arch_name, patch_size)
         self.loss_function = LossFactory.create_loss(loss_fn)
         self.metrics = MetricFactory.create_metrics()
-
         self.post_pred = Compose(
             [EnsureType("tensor", device="cpu"), AsDiscrete(argmax=True, to_onehot=2)]
         )
         self.post_label = Compose(
             [EnsureType("tensor", device="cpu"), AsDiscrete(to_onehot=2)]
         )
-        
+
         self.best_val_dice = 0
         self.best_val_epoch = 0
         self.validation_step_outputs = []
         self.batch_size = batch_size
         self.lr = lr
         self.patch_size = patch_size
-        self.result_folder = Path("result")
+        self.result_folder = Path("result")  # Define the result folder
         self.test_step_outputs = []
 
-    def forward(self, x):
-        return self._model(x)
-
+    def forward(self, x, seg):
+        # Modify the forward method to include seg
+        return self._model(x, seg)
+    
     def configure_optimizers(self):
         optimizer = torch.optim.Adam(self._model.parameters(), self.lr)
         return optimizer
 
     def training_step(self, batch, batch_idx):
-        images, labels = batch["image"], batch["label"]
+        images, labels, segs = (
+            batch["image"],
+            batch["label"],
+            batch["seg"],
+        )  # Include seg
         skeleton = batch.get("skeleton", None)  # Get skeleton if available
         
-        output = self.forward(images)
+        output = self.forward(images, segs)  # Pass seg to forward
         
         # Handle different loss functions
         loss_fn_name = self.loss_function.__class__.__name__
@@ -111,19 +115,30 @@ class CarotidSkeletonSegmentModel(pytorch_lightning.LightningModule):
             on_epoch=True,
             prog_bar=True,
             logger=True,
-        )
+        )   
         return loss
 
     def validation_step(self, batch, batch_idx):
-        images, labels = batch["image"], batch["label"]
+        images, labels, segs = (
+            batch["image"],
+            batch["label"],
+            batch["seg"],
+        )  # Include seg
         skeleton = batch.get("skeleton", None)
-        
+
+        inputs = torch.cat((images, segs), dim=1)
+
         roi_size = self.patch_size
         sw_batch_size = 4
         outputs = sliding_window_inference(
-            images, roi_size, sw_batch_size, self.forward
+            inputs,
+            roi_size,
+            sw_batch_size,
+            lambda x: self.forward(
+                x[:, :1, ...], x[:, 1:, ...]
+            ),  # Split before forward
         )
-        
+
         # Handle different loss functions (same logic as training_step)
         loss_fn_name = self.loss_function.__class__.__name__
         
@@ -140,10 +155,10 @@ class CarotidSkeletonSegmentModel(pytorch_lightning.LightningModule):
         else:
             # For standard losses without skeleton (DiceLoss, DiceCELoss, etc.)
             loss = self.loss_function(outputs, labels)
-        
+
         outputs = [self.post_pred(i) for i in decollate_batch(outputs)]
         labels = [self.post_label(i) for i in decollate_batch(labels)]
-        
+
         MetricFactory.calculate_metrics(self.metrics, outputs, labels)
         
         d = {"val_loss": loss, "val_number": len(outputs)}
@@ -155,10 +170,10 @@ class CarotidSkeletonSegmentModel(pytorch_lightning.LightningModule):
         for output in self.validation_step_outputs:
             val_loss += output["val_loss"].sum().item()
             num_items += output["val_number"]
-        
+
         metric_results = MetricFactory.aggregate_metrics(self.metrics)
         MetricFactory.reset_metrics(self.metrics)
-            
+
         mean_val_loss = torch.tensor(val_loss / num_items, device=self.device)
         log_dict = {
             "val_dice": torch.tensor(metric_results["dice"], device=self.device),
@@ -190,7 +205,7 @@ class CarotidSkeletonSegmentModel(pytorch_lightning.LightningModule):
             f"\nbest mean dice: {self.best_val_dice:.4f} "
             f"at epoch: {self.best_val_epoch}"
         )
-        self.validation_step_outputs.clear()
+        self.validation_step_outputs.clear()  # free memory
 
     def save_result(self, inputs, outputs, labels, filename_prefix="result"):
         # Ensure outputs and labels are numpy arrays
@@ -200,6 +215,10 @@ class CarotidSkeletonSegmentModel(pytorch_lightning.LightningModule):
         inputs_np = inputs.detach().cpu().numpy().squeeze()
         outputs_np = outputs.detach().cpu().numpy().squeeze()[1]
         labels_np = labels.detach().cpu().numpy().squeeze()[1]
+
+        # inputs_np = np.moveaxis(inputs_np, 0, -1)
+        # outputs_np = np.moveaxis(outputs_np, 0, -1)
+        # labels_np = np.moveaxis(labels_np, 0, -1)
 
         # Save inputs as NIfTI
         inputs_nifti = nib.Nifti1Image(
@@ -228,26 +247,38 @@ class CarotidSkeletonSegmentModel(pytorch_lightning.LightningModule):
         print(f"Labels: {save_folder / f'{filename_prefix}_labels.nii.gz'}")
 
     def test_step(self, batch, batch_idx):
-        images, labels = batch["image"], batch["label"]
+        images, labels, segs = (
+            batch["image"],
+            batch["label"],
+            batch["seg"],
+        )  # Include seg
         roi_size = self.patch_size
         sw_batch_size = 4
+        # Concatenate images and segs along the channel dimension
+        inputs = torch.cat((images, segs), dim=1)
+
         outputs = sliding_window_inference(
-            images, roi_size, sw_batch_size, self.forward
+            inputs,
+            roi_size,
+            sw_batch_size,
+            lambda x: self.forward(
+                x[:, :1, ...], x[:, 1:, ...]
+            ),  # Split before forward
         )
-       
+
         outputs = [self.post_pred(i) for i in decollate_batch(outputs)]
         labels = [self.post_label(i) for i in decollate_batch(labels)]
-        
+
         filename = batch["image"].meta["filename_or_obj"][0]
-        patient_id = filename.split("\\")[-2]
-        
+        patient_id = filename.split("\\")[-2]  # Gets patient id (ex. 00293921) from the path
+
         # Save result
         self.save_result(
             images, outputs[0], labels[0], filename_prefix=f"Subj_{patient_id}"
         )
 
         MetricFactory.calculate_metrics(self.metrics, outputs, labels)
-
+        
         metric_results = MetricFactory.aggregate_metrics(self.metrics)
         
         d = {
@@ -349,15 +380,14 @@ class CarotidSkeletonSegmentModel(pytorch_lightning.LightningModule):
         print(f"Mean Betti-1 Error: {mean_betti_1:.4f}")
         print(f"Detailed result saved to: {result_file}")
 
+        # Clear the outputs
         self.test_step_outputs.clear()
 
 
 @click.command()
 @click.option(
     "--arch_name",
-    type=click.Choice(
-        ["UNet", "AttentionUnet", "SegResNet", "UNETR", "SwinUNETR", "VNet", "DynUNet"]
-    ),
+    type=click.Choice(["SegResNet", "UNETR", "SwinUNETR"]),
     default="SegResNet",
     help="Choose the architecture name for the model.",
 )
@@ -389,6 +419,12 @@ class CarotidSkeletonSegmentModel(pytorch_lightning.LightningModule):
     help="Path to a checkpoint file to load for inference.",
 )
 @click.option(
+    "--guide",
+    type=click.Choice(["segMap", "distanceMap"]),
+    default="distanceMap",
+    help="Choose the guide for training.",
+)
+@click.option(
     "--fold_number", 
     type=int, 
     default=1, 
@@ -413,6 +449,7 @@ def main(
     check_val_every_n_epoch,
     gpu_number,
     checkpoint_path,
+    guide,
     fold_number,
     target,
     skeleton_tube
@@ -428,14 +465,16 @@ def main(
     print_monai_config()
 
     # set up loggers and checkpoints
-    log_dir = f"result/{loss_fn}/{arch_name}/{target}/fold_{fold_number}"
+    log_dir = f"result/{loss_fn}/proposed_{arch_name}" + ("_dstMap" if guide == "distanceMap" else "_segMap") + f"/{target}/fold_{fold_number}"
     os.makedirs(log_dir, exist_ok=True)
 
     # GPU Setting
     if "," in str(gpu_number):
+        # Multiple GPUs
         devices = [int(gpu) for gpu in str(gpu_number).split(",")]
         strategy = "ddp_find_unused_parameters_true"
     else:
+        # Single GPU
         devices = [int(gpu_number)]
         strategy = "auto" 
 
@@ -452,7 +491,7 @@ def main(
         devices=devices,
         strategy=strategy,
         max_epochs=max_epochs,
-        logger=dvc_logger,
+        logger=dvc_logger,  # Use DVC logger instead of CSV logger
         enable_checkpointing=True,
         benchmark=True,
         accumulate_grad_batches=5,
@@ -469,7 +508,8 @@ def main(
         batch_size=1,
         patch_size=(96, 96, 96),
         num_workers=4,
-        cache_rate=0.4,
+        cache_rate=0.2,
+        use_distance_map=guide == "distanceMap",
         fold_number=fold_number,
         target=target,
         use_skeleton=True,
@@ -483,20 +523,22 @@ def main(
         checkpoint_filename = os.path.basename(checkpoint_path)
         
         if "final_model.ckpt" in checkpoint_filename:
-            # Test mode
+            # start test mode if final epoch checkpoint
             print("Loading final model for testing...")
             model = CarotidSkeletonSegmentModel.load_from_checkpoint(
                 checkpoint_path,
                 arch_name=arch_name,
                 loss_fn=loss_fn,
                 batch_size=1,
-                fold_number=fold_number
+                fold_number=fold_number,
             )
-            model.result_folder = Path(log_dir)
+            model.result_folder = Path(log_dir)  # Set result folder path
+            
+            # test mode
             trainer.test(model=model, datamodule=data_module)
         
         elif "epoch=" in checkpoint_filename:
-            # Resume training
+            # resume training if intermediate epoch checkpoint
             print("Resuming training from checkpoint...")
             model = CarotidSkeletonSegmentModel(
                 arch_name=arch_name,
@@ -504,32 +546,35 @@ def main(
                 batch_size=1,
                 fold_number=fold_number
             )
-            model.result_folder = Path(log_dir)
+            model.result_folder = Path(log_dir)  # Set result folder path
+            
+            # resume training (use ckpt_path parameter in trainer.fit)
             trainer.fit(model, datamodule=data_module, ckpt_path=checkpoint_path)
             trainer.save_checkpoint(os.path.join(log_dir, "final_model.ckpt"))
             trainer.test(model=model, datamodule=data_module)
         
         else:
-            # Test mode
+            # test mode if unknown checkpoint format
             print("Unknown checkpoint format, using for testing...")
             model = CarotidSkeletonSegmentModel.load_from_checkpoint(
                 checkpoint_path,
                 arch_name=arch_name,
                 loss_fn=loss_fn,
                 batch_size=1,
-                fold_number=fold_number
+                fold_number=fold_number,
             )
-            model.result_folder = Path(log_dir)
+            model.result_folder = Path(log_dir)  # Set result folder path
+            
             trainer.test(model=model, datamodule=data_module)
     else:
         # Initialize model for training
         model = CarotidSkeletonSegmentModel(
-            arch_name=arch_name,
-            loss_fn=loss_fn,
-            batch_size=1,
+            arch_name=arch_name, 
+            loss_fn=loss_fn, 
+            batch_size=1, 
             fold_number=fold_number
         )
-        model.result_folder = Path(log_dir)
+        model.result_folder = Path(log_dir)  # Set result folder path
 
         # Train the model
         trainer.fit(model, datamodule=data_module)
@@ -538,4 +583,4 @@ def main(
 
 
 if __name__ == "__main__":
-    main() 
+    main()

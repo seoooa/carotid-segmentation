@@ -12,12 +12,12 @@ from src.losses.skeleton_recall.nnunetv2.training.loss.dice import SoftSkeletonR
 from src.losses.skeleton_recall.nnunetv2.utilities.helpers import softmax_helper_dim1
 
 
-class SkeletonRecallLossWrapper(nn.Module):
+class DiceSkeletonRecallLoss(nn.Module):
     """
     Wrapper for the original DC_SkelREC_and_CE_loss to make it compatible with MONAI
     """
     def __init__(self, weight_ce=1, weight_dice=1, weight_srec=1, ignore_label=None):
-        super(SkeletonRecallLossWrapper, self).__init__()
+        super(DiceSkeletonRecallLoss, self).__init__()
         
         soft_dice_kwargs = {'batch_dice': False, 'smooth': 1e-5, 'do_bg': False, 'ddp': False}
         soft_skelrec_kwargs = {'batch_dice': False, 'smooth': 1e-5, 'do_bg': False, 'ddp': False}
@@ -41,7 +41,7 @@ class SkeletonRecallLossWrapper(nn.Module):
         target_skel: skeleton ground truth (b, h, w, d) or (b, 1, h, w, d) - required
         """
         if target_skel is None:
-            raise ValueError("target_skel is required for SkeletonRecallLossWrapper")
+            raise ValueError("target_skel is required for DiceSkeletonRecallLoss")
         
         # Ensure target has channel dimension
         if target.ndim == input.ndim - 1:
@@ -101,8 +101,8 @@ class LossFactory:
                 smooth=1e-5,
                 ddp=False
             )
-        elif loss_name == "DC_SkelREC_and_CE_loss":
-            return SkeletonRecallLossWrapper(
+        elif loss_name == "DiceSkeletonRecallLoss":
+            return DiceSkeletonRecallLoss(
                 weight_ce=1,
                 weight_dice=1,
                 weight_srec=1,
