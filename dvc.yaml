@@ -2776,6 +2776,445 @@ metrics:
 - result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
 - result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
 - result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/metrics.json
 plots:
 - result/SegResNet/fold_1/plots/metrics:
     x: step
@@ -8331,8 +8770,886 @@ plots:
     x: step
 - result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/plots/metrics:
     x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/DiceSkeletonRecallLoss/proposed_SegResNet_dstMap/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
+- result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/plots/metrics:
+    x: step
 artifacts:
   best:
     path: 
-      result/DC_SkelREC_and_CE_loss/SegResNet/carotid/fold_1/artifacts/epoch=199-step=1200.ckpt
+      result/SoftDiceclDiceLoss/SegResNet/carotid/fold_1/artifacts/epoch=119-step=720.ckpt
     type: model
