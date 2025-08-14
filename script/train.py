@@ -93,6 +93,7 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
             on_epoch=True,
             prog_bar=True,
             logger=True,
+            sync_dist=True,
         )
         return loss
 
@@ -201,7 +202,7 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
         labels = [self.post_label(i) for i in decollate_batch(labels)]
         
         filename = batch["image"].meta["filename_or_obj"][0]
-        patient_id = filename.split("\\")[-2]  # Gets patient id (ex. 00293921) from the path
+        patient_id = filename.split("/")[-2]  # Gets patient id (ex. 00293921) from the path
         
         # Save result
         self.save_result(
@@ -260,7 +261,7 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
             "test/mean_cldice": mean_cldice,
             "test/mean_betti_0": mean_betti_0,
             "test/mean_betti_1": mean_betti_1,
-        })
+        }, sync_dist=True)
 
         # Save detailed result to CSV
         result_file = self.result_folder / "test" / "test_result.csv"
@@ -321,19 +322,19 @@ class CarotidSegmentModel(pytorch_lightning.LightningModule):
     type=click.Choice(
         ["UNet", "AttentionUnet", "SegResNet", "UNETR", "SwinUNETR", "VNet", "DynUNet"]
     ),
-    default="UNETR",
+    default="SegResNet",
     help="Choose the architecture name for the model.",
 )
 @click.option(
     "--loss_fn",
-    type=click.Choice(["DiceLoss", "DiceCELoss", "DiceFocalLoss"]),
+    type=click.Choice(["DiceLoss", "DiceCELoss", "DiceFocalLoss", "SoftDiceclDiceLoss"]),
     default="DiceFocalLoss",
     help="Choose the loss function for training.",
 )
 @click.option(
     "--max_epochs",
     type=int,
-    default=300,
+    default=200,
     help="Set the maximum number of training epochs.",
 )
 @click.option(
@@ -381,7 +382,7 @@ def main(
     print_monai_config()
 
     # set up loggers and checkpoints
-    log_dir = f"result/{target}/{arch_name}/fold_{fold_number}"
+    log_dir = f"result/{target}/{arch_name}/{loss_fn}"
     os.makedirs(log_dir, exist_ok=True)
 
     # GPU Setting
@@ -423,7 +424,7 @@ def main(
         data_dir=f"data/Han_Seg_{target.capitalize()}",
         batch_size=1,
         patch_size=(96, 96, 96),
-        num_workers=2,
+        num_workers=4,
         cache_rate=0.1,
         fold_number=fold_number,
         target=target

@@ -14,7 +14,8 @@ from __future__ import annotations
 import torch
 import torch.nn.functional as F
 from torch.nn.modules.loss import _Loss
-
+from monai.networks.utils import one_hot
+import warnings
 
 def soft_erode(img: torch.Tensor) -> torch.Tensor:  # type: ignore
     """
@@ -91,8 +92,8 @@ def soft_skel(img: torch.Tensor, iter_: int) -> torch.Tensor:
         skel = skel + F.relu(delta - skel * delta)
     return skel
 
-
-def soft_dice(y_true: torch.Tensor, y_pred: torch.Tensor, smooth: float = 1.0) -> torch.Tensor:
+    
+def soft_dice(input: torch.Tensor, target: torch.Tensor, smooth: float = 1.0) -> torch.Tensor:
     """
     Function to compute soft dice loss
 
@@ -106,8 +107,9 @@ def soft_dice(y_true: torch.Tensor, y_pred: torch.Tensor, smooth: float = 1.0) -
     Returns:
         dice loss
     """
-    intersection = torch.sum((y_true * y_pred)[:, 1:, ...])
-    coeff = (2.0 * intersection + smooth) / (torch.sum(y_true[:, 1:, ...]) + torch.sum(y_pred[:, 1:, ...]) + smooth)
+    
+    intersection = torch.sum((target * input)[:, 1:, ...])
+    coeff = (2.0 * intersection + smooth) / (torch.sum(target[:, 1:, ...]) + torch.sum(input[:, 1:, ...]) + smooth)
     soft_dice: torch.Tensor = 1.0 - coeff
     return soft_dice
 
@@ -157,7 +159,14 @@ class SoftDiceclDiceLoss(_Loss):
         https://github.com/jocpae/clDice/blob/master/cldice_loss/pytorch/cldice.py#L38
     """
 
-    def __init__(self, iter_: int = 3, alpha: float = 0.5, smooth: float = 1.0) -> None:
+    def __init__(
+            self, 
+            to_onehot_y: bool = True, 
+            softmax: bool = True, 
+            iter_: int = 3, 
+            alpha: float = 0.5, 
+            smooth: float = 1.0
+        ) -> None:
         """
         Args:
             iter_: Number of iterations for skeletonization
@@ -165,18 +174,46 @@ class SoftDiceclDiceLoss(_Loss):
             alpha: Weighing factor for cldice
         """
         super().__init__()
+        self.to_onehot_y = to_onehot_y
+        self.softmax = softmax
         self.iter = iter_
         self.smooth = smooth
         self.alpha = alpha
 
-    def forward(self, y_true: torch.Tensor, y_pred: torch.Tensor) -> torch.Tensor:
-        dice = soft_dice(y_true, y_pred, self.smooth)
-        skel_pred = soft_skel(y_pred, self.iter)
-        skel_true = soft_skel(y_true, self.iter)
-        tprec = (torch.sum(torch.multiply(skel_pred, y_true)[:, 1:, ...]) + self.smooth) / (
+    def forward(self, input: torch.Tensor, target: torch.Tensor) -> torch.Tensor:
+
+        if input.dim() != target.dim():
+            raise ValueError(
+                "the number of dimensions for input and target should be the same, "
+                f"got shape {input.shape} (nb dims: {len(input.shape)}) and {target.shape} (nb dims: {len(target.shape)}). "
+                "if target is not one-hot encoded, please provide a tensor with shape B1H[WD]."
+            )
+
+        if target.shape[1] != 1 and target.shape[1] != input.shape[1]:
+            raise ValueError(
+                "number of channels for target is neither 1 (without one-hot encoding) nor the same as input, "
+                f"got shape {input.shape} and {target.shape}."
+            )
+
+        if self.to_onehot_y:
+            n_pred_ch = input.shape[1]
+            if n_pred_ch == 1:
+                warnings.warn("single channel prediction, `to_onehot_y=True` ignored.")
+            else:
+                target = one_hot(target, num_classes=n_pred_ch)
+        
+        if self.softmax:
+            input = torch.softmax(input, dim=1)
+
+        dice = soft_dice(input, target, self.smooth)
+
+        skel_pred = soft_skel(input, self.iter)
+        skel_true = soft_skel(target, self.iter)
+
+        tprec = (torch.sum(torch.multiply(skel_pred, target)[:, 1:, ...]) + self.smooth) / (
             torch.sum(skel_pred[:, 1:, ...]) + self.smooth
         )
-        tsens = (torch.sum(torch.multiply(skel_true, y_pred)[:, 1:, ...]) + self.smooth) / (
+        tsens = (torch.sum(torch.multiply(skel_true, input)[:, 1:, ...]) + self.smooth) / (
             torch.sum(skel_true[:, 1:, ...]) + self.smooth
         )
         cl_dice = 1.0 - 2.0 * (tprec * tsens) / (tprec + tsens)
